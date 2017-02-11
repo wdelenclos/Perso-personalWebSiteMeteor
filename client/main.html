@@ -1,5 +1,3 @@
-
-
   <head>
     <title>Wladimir Delenclos</title>
     <meta charset="utf-8" />
@@ -7,11 +5,13 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-  {{>scriptsHaut}}
-<!-- Bienvenue dans mon code ! -->
-    <!-- Wrapper -->
-      <div id="wrapper" class="divided">
+  {{>content}}
+  </body>
 
+  <!-- Main-template -->
+  <template name="content">
+      {{>scriptsHaut}}
+      <div id="wrapper" class="divided">
           {{>section1}}
           {{>section2}}
           {{>section3}}
@@ -20,13 +20,9 @@
           {{>section6}}
           {{>section7}}
           {{>footer}}
-
-
       </div>
-
-          {{>scriptsBas}}
-
-  </body>
+      {{>scriptsBas}}
+  </template>
 
   <!-- Templates -->
   <template name="section1">
@@ -1024,7 +1020,6 @@
   </template>
 
   <!-- Sous-templates -->
-
   <!-- section1-->
   <template name = "storytelling">
       <p class="text major">
@@ -1041,7 +1036,7 @@
 
       <div class="image scene" id="scene">
 
-          <li class="layer" data-depth="0.50"><img src="images/banner.jpg" alt="" /></li>
+          <li class="layer" data-depth="0.50"><img src="images/banner{{imageId}}.jpg" alt="background" /></li>
 
 
       </div>

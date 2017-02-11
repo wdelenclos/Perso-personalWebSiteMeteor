@@ -1,9 +1,20 @@
 import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
-
 import './main.html';
 
+
+
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
+
+
 $( window ).load(function() {
+    var imageId = getRandomInt(0, 10);
     $('.discoverBtn').hide();
 
 });
