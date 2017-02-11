@@ -8,6 +8,10 @@ $( window ).load(function() {
 
 });
 
+Template.storytelling.events({
+    'click #firstBtn': function(e){ console.log('ok'); }
+});
+
 
 
 class TextScramble {
@@ -65,6 +69,7 @@ class TextScramble {
 }
 
 
+
 function storytellingLocate(position) {
     function calculDistance(lat_a, lon_a, lat_b, lon_b){
         a = Math.PI / 180;
@@ -102,15 +107,15 @@ function storytellingLocate(position) {
 
     if(distance < 2){
         var phrases = [
-            'En ce moment, ' + distance + ' km nous séparent',
-            'c\'est peu ...',
-            'que dirais-tu de prendre un café, ou simplement de discuter ?',
+            'Bonjour' + nameInput,
+            'Pour l\'instant ' + distance + ' km nous séparent',
+            'heureusement, le digital nous a permet de nous rencontrer',
             'ou simplement s\'ajouter sur les réseaux sociaux',
             'that there\'s a difference',
             'between knowing the path',
             'and walking the path'
         ];
-        var cta = "Discuter";
+
 
     }
     else if(distance < 25){
@@ -123,7 +128,7 @@ function storytellingLocate(position) {
             'between knowing the path',
             'and walking the path'
         ];
-        var cta = "Discuter";
+
 
     }
 
@@ -138,7 +143,7 @@ function storytellingLocate(position) {
             'and walking the path'
 
         ];
-        var cta = "Discuter";
+
     }
 
 
@@ -152,7 +157,6 @@ function storytellingLocate(position) {
                 setTimeout(next, 3000)
             })
         if(counter == 1){
-            $('.discoverBtn').innerHTML = cta;
             $('.discoverBtn').fadeIn();
         }
             counter = (counter + 1) % phrases.length
