@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
-/*
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -4116,6 +4111,7 @@
 				width: 100%;
 				height: 100%;
 				border-radius: 0;
+                opacity: 0.7
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -8414,3 +8410,8 @@
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+.discoverBtn{
+	display: ;
+}
