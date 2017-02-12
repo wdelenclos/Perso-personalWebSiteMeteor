@@ -1,4 +1,5 @@
 allow-deny@1.0.5
+anonyfox:scrape@0.0.10
 autopublish@1.0.7
 autoupdate@1.2.11
 babel-compiler@6.13.0
@@ -13,17 +14,20 @@ caching-compiler@1.1.9
 caching-html-compiler@1.1.0
 callback-hook@1.0.10
 check@1.2.4
+coffeescript@1.0.17
 ddp@1.2.5
 ddp-client@1.2.9
 ddp-common@1.2.8
 ddp-server@1.2.10
 deps@1.0.12
 diff-sequence@1.0.7
+digilord:sugarjs@1.4.1
 ecmascript@0.6.1
 ecmascript-runtime@0.3.15
 ejson@1.0.13
 es5-shim@4.6.15
 fastclick@1.0.13
+froatsnook:request@2.53.3
 geojson-utils@1.0.10
 hot-code-push@1.0.4
 html-tools@1.0.11
@@ -46,6 +50,7 @@ modules@0.7.7
 modules-runtime@0.7.8
 mongo@1.1.14
 mongo-id@1.0.6
+nefiltari:yaki@0.1.81
 npm-mongo@2.2.16_1
 observe-sequence@1.0.14
 ordered-dict@1.0.9
@@ -70,3 +75,4 @@ underscore@1.0.10
 url@1.0.11
 webapp@1.3.12
 webapp-hashing@1.0.9
+wizonesolutions:underscore-string@1.0.0

@@ -40,7 +40,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/events.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/builtins.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/digilord_sugarjs/1.4.1/web.browser/packages/digilord:sugarjs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/domrange.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/froatsnook_request/2.53.3/web.browser/packages/froatsnook:request.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
@@ -48,6 +50,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/caching-compiler/1.1.9/web.browser/multi-file-caching-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.7.8/web.browser/modules-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.7.8/web.browser/.npm/package/node_modules/install/install.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/nefiltari_yaki/0.1.81/web.browser/packages/nefiltari_yaki.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/wizonesolutions_underscore-string/1.0.0/web.browser/packages/wizonesolutions:underscore-string.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/anonyfox_scrape/0.0.10/web.browser/packages/anonyfox_scrape.js" />
         <item url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.1.0/web.browser/caching-html-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.10/web.browser/hook.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.2.4/web.browser/isPlainObject.js" />
@@ -175,7 +180,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/events.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/builtins.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/digilord_sugarjs/1.4.1/web.browser/packages/digilord:sugarjs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/domrange.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/froatsnook_request/2.53.3/web.browser/packages/froatsnook:request.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
@@ -183,6 +190,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/caching-compiler/1.1.9/web.browser/multi-file-caching-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.7.8/web.browser/modules-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.7.8/web.browser/.npm/package/node_modules/install/install.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/nefiltari_yaki/0.1.81/web.browser/packages/nefiltari_yaki.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/wizonesolutions_underscore-string/1.0.0/web.browser/packages/wizonesolutions:underscore-string.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/anonyfox_scrape/0.0.10/web.browser/packages/anonyfox_scrape.js" />
       <root url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.1.0/web.browser/caching-html-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.10/web.browser/hook.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.2.4/web.browser/isPlainObject.js" />

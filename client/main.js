@@ -2,6 +2,12 @@ import { Template } from 'meteor/templating';
 import './main.html';
 
 
+scraper = require('medium-scraper');
+var medium = {user: '@wdelenclos'}
+
+scraper.getPosts(medium).then(function(results) {
+    console.log(results)
+})
 // Fonction de la localisation & du storytelling
 class TextScramble {
     constructor(el) {
@@ -198,12 +204,14 @@ $( window ).load(function() {
     var today=new Date();
     var annee = today.getFullYear();
     console.log('© Wladimir Delenclos - '+annee+'\n \n- Github: https://github.com/wdelenclos/Projet.Perso \n \n  \\\\°'  );
+    // Console Log des crédits
+
     $('.discoverBtn').hide();
     if(navigator.geolocation){ // Lancement du storytelling
         navigator.geolocation.getCurrentPosition(storytellingLocate, storytellingUnlocate);
     }
-});
 
+});
 
 
 // Generation contenus statiques des templates(JSON)
@@ -221,15 +229,9 @@ Template.portrait.helpers({
 });
 Template.publications.helpers({
     h2: "Dernières publications",
-    subtitle: "Heticien - UX Designer @DigitasLBi",
-    p1: "Concevoir et réaliser des expériences sur les supports digitaux suppose à la fois une connaissance générale de tous les enjeux, qu'une expertise approfondie dans certains des domaines qui compose cet univers digital qui s'étends sans cesse toujours plus.",
-    p2: "Heticien en Bachelor Chef de projet Multimédia (promotion 2018) et UX Designer chez DigitasLBi France, j'approfondis mes connaissances en conception d'expérience utilisateur par un travail sur le No-Interface Design. Ces recherches et connaissances théoriques viennent se completer en un savoir-faire technique; aussi bien en créa (aquis en classe préparatoire aux arts décoratifs) qu'en développement (JS, NodeJS, Meteor, PHP, etc. )",
-    aTitle: "Voir mon profil LinkedIn",
-    a:"https://www.linkedin.com/in/wdelenclos",
-    img:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAf5AAAAJDI2NmViNjAyLWNkN2EtNDIxNC1iN2YyLWRiMzNkY2IyOTg3Zg.jpg",
-    alt:"Portrait de Wladimir Delenclos",
-});
+    p: "Découvrez mes derniers articles publiés sur Medium",
 
+});
 
 // Generation contenus dynamique des templates (fonctions)
 
@@ -240,6 +242,16 @@ Template.background.helpers({
         return Math.floor(Math.random() * (max - min)) + min;
     }
 });
+
+Meteor.call("publication", function(err, res) { // récupération data Medium envoyé coté serveur
+    lenght = res.length;
+
+    for( var i = 0; i < lenght; i++) {
+        console.log(res[i]);
+        document.querySelector('#publications').innerHTML = "<article id=\"publication" + i + "\"><a href=\""+ res[i].link+"\" target='_blank' class=\"image\"> <img src=\"../public/images/articles/"+i+".jpg\" alt=\""+res[i].title+"\" /> </a> <div class=\"caption\"> <h3>"+res[i].title+"</h3> <p>"+ res[i].description+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
+    }
+});
+
 
 
 // Events des templates

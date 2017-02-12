@@ -1,8 +1,20 @@
 import { Meteor } from 'meteor/meteor';
-
 Meteor.startup(() => {
-  playlist = new Mongo.Collection( "dataPerso" );
+
+
 
 });
+
+
+
+Meteor.methods({
+    publication: function() {
+        feedData = Scrape.feed("https://medium.com/feed/@wdelenclos");
+        publications = feedData.items;
+        return publications;
+    }
+});
+
+
 
 
