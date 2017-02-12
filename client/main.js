@@ -2,12 +2,8 @@ import { Template } from 'meteor/templating';
 import './main.html';
 
 
-scraper = require('medium-scraper');
-var medium = {user: '@wdelenclos'}
 
-scraper.getPosts(medium).then(function(results) {
-    console.log(results)
-})
+
 // Fonction de la localisation & du storytelling
 class TextScramble {
     constructor(el) {
@@ -201,6 +197,7 @@ function storytellingUnlocate() {
 
 // Au chargement ..
 $( window ).load(function() {
+
     var today=new Date();
     var annee = today.getFullYear();
     console.log('© Wladimir Delenclos - '+annee+'\n \n- Github: https://github.com/wdelenclos/Projet.Perso \n \n  \\\\°'  );
@@ -232,6 +229,14 @@ Template.publications.helpers({
     p: "Découvrez mes derniers articles publiés sur Medium",
 
 });
+var today = new Date();
+var annee = today.getFullYear();
+Template.footer.helpers({
+
+    credits: "W Delenclos - " + annee,
+    username: "wdelenclos",
+
+});
 
 // Generation contenus dynamique des templates (fonctions)
 
@@ -244,12 +249,13 @@ Template.background.helpers({
 });
 
 Meteor.call("publication", function(err, res) { // récupération data Medium envoyé coté serveur
-    lenght = res.length;
 
-    for( var i = 0; i < lenght; i++) {
-        console.log(res[i]);
-        document.querySelector('#publications').innerHTML = "<article id=\"publication" + i + "\"><a href=\""+ res[i].link+"\" target='_blank' class=\"image\"> <img src=\"../public/images/articles/"+i+".jpg\" alt=\""+res[i].title+"\" /> </a> <div class=\"caption\"> <h3>"+res[i].title+"</h3> <p>"+ res[i].description+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
+    Meteor.call("publicationTitle", function(irr, ras) {
+    for( var i = 0; i < res.length; i++) {
+        var titre = ras.items[i].title;
+        document.querySelector('#publications').innerHTML = "<article id=\"publication" + i + "\"><a href=\""+ res[i].url+"\" target='_blank' class=\"image\"> <img src=\""+res[i].image+"\" alt=\""+titre+"\" /> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+ res[i].time+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
     }
+    });
 });
 
 
