@@ -8414,17 +8414,15 @@
 			#firstInput{
 			width: 50%;
 				float: left;
-				border-top: hidden;
-				border-left: hidden;
-				border-right: hidden;
-				margin-left: 10%;
+				margin-left: 15%;
+				margin-right: -15%;
 			}
 			#firstInput:focus{
 				border-top: hidden;
 				border-left: hidden;
 				border-right: hidden;
-				box-shadow: 0 0 0 0px;!important;
 			}
-			#firstBtn{
+			input[type="submit"]{
+				border-radius: 6px;!important;
 			}
 

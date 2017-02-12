@@ -3,28 +3,6 @@ import './main.html';
 
 
 
-
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-
-
-
-
-$( window ).load(function() {
-    var imageId = getRandomInt(0, 10);
-    $('.discoverBtn').hide();
-
-});
-
-Template.storytelling.events({
-    'click #firstBtn': function(e){ console.log('ok'); }
-});
-
-
-
 class TextScramble {
     constructor(el) {
         this.el = el
@@ -159,22 +137,22 @@ function storytellingLocate(position) {
 
 
 
-        var el = document.querySelector('.text')
+    var el = document.querySelector('.text')
     var fx = new TextScramble(el)
 
-        let counter = 0
+    let counter = 0
     var next = () => {
-            fx.setText(phrases[counter]).then(() => {
-                setTimeout(next, 3000)
-            })
+        fx.setText(phrases[counter]).then(() => {
+            setTimeout(next, 3000)
+        })
         if(counter == 1){
             $('.discoverBtn').fadeIn();
         }
-            counter = (counter + 1) % phrases.length
-        }
+        counter = (counter + 1) % phrases.length
+    }
 
 
-        next()
+    next()
 
 
 
@@ -183,15 +161,15 @@ function storytellingLocate(position) {
 function storytellingUnlocate() {
 
 
-        var phrases = [
-            'Je ne sais pas où tu es ... ',
-            '... ni ce que tu fais mais ...',
-            'grâce à internet nous pouvons être plus proche ',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
-        ]
+    var phrases = [
+        'Je ne sais pas où tu es ... ',
+        '... ni ce que tu fais mais ...',
+        'grâce à internet nous pouvons être plus proche ',
+        'just as I did',
+        'that there\'s a difference',
+        'between knowing the path',
+        'and walking the path'
+    ]
 
 
     var el = document.querySelector('.text')
@@ -212,10 +190,43 @@ function storytellingUnlocate() {
 
 }
 
+// Au chargement ..
+$( window ).load(function() {
+    $('.discoverBtn').hide();
 
-if(navigator.geolocation){
-    navigator.geolocation.getCurrentPosition(storytellingLocate, storytellingUnlocate);
-}
+
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(storytellingLocate, storytellingUnlocate);
+    }
+
+
+});
+
+
+
+// Generation contenus statiques des templates(JSON)
+
+
+
+// Generation contenus dynamique des templates (fonctions)
+
+Template.background.helpers({
+    imageId: function (){
+        min = Math.ceil(1);
+        max = Math.floor(5);
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+});
+
+
+// Events des templates
+
+Template.storytelling.events({
+    'click #firstBtn': function () {
+        console.log('ok');
+    },
+});
+
 
 
 
