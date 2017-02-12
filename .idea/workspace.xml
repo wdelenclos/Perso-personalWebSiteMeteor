@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4195f28b-4a1d-4eda-8eb5-2fd18d2e5145" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.css" afterPath="$PROJECT_DIR$/client/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,67 +24,91 @@
     <favorites_list name="Projet.Perso" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <element signature="n#TextScramble#0" expanded="false" />
-                <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
-                <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="8417" column="33" lean-forward="false" selection-start-line="8417" selection-start-column="33" selection-end-line="8417" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="1024" column="6" lean-forward="false" selection-start-line="1024" selection-start-column="6" selection-end-line="1024" selection-end-column="6" />
-              <folding>
-                <element signature="n#template#0;n#!!top" expanded="false" />
-                <element signature="n#template#2;n#!!top" expanded="false" />
-                <element signature="n#template#3;n#!!top" expanded="false" />
-                <element signature="n#template#4;n#!!top" expanded="false" />
-                <element signature="n#template#5;n#!!top" expanded="false" />
-                <element signature="n#template#6;n#!!top" expanded="false" />
-                <element signature="n#template#7;n#!!top" expanded="false" />
-                <element signature="n#template#8;n#!!top" expanded="false" />
-                <element signature="n#template#10;n#!!top" expanded="false" />
-                <element signature="n#script#6;n#template#10;n#!!top" expanded="false" />
-                <element signature="e#20436#20498#0#HTML" expanded="false" />
-                <element signature="n#template#12;n#!!top" expanded="false" />
-                <marker date="1486895511318" expanded="false" signature="20012:20027" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="846">
+                  <caret line="244" column="23" lean-forward="true" selection-start-line="244" selection-start-column="23" selection-end-line="244" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#45#0" expanded="true" />
+                    <element signature="n#TextScramble#0" expanded="false" />
+                    <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
+                    <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/assets/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="10713">
+                  <caret line="8354" column="13" lean-forward="true" selection-start-line="8354" selection-start-column="13" selection-end-line="8354" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1044">
+                  <caret line="1028" column="11" lean-forward="false" selection-start-line="1028" selection-start-column="11" selection-end-line="1028" selection-end-column="11" />
+                  <folding>
+                    <element signature="n#template#1;n#!!top" expanded="false" />
+                    <element signature="n#template#4;n#!!top" expanded="false" />
+                    <element signature="n#template#5;n#!!top" expanded="false" />
+                    <element signature="n#template#6;n#!!top" expanded="false" />
+                    <element signature="n#template#7;n#!!top" expanded="false" />
+                    <element signature="n#template#8;n#!!top" expanded="false" />
+                    <element signature="n#template#10;n#!!top" expanded="false" />
+                    <element signature="n#script#6;n#template#10;n#!!top" expanded="false" />
+                    <element signature="e#20334#20396#0#HTML" expanded="false" />
+                    <element signature="n#template#11;n#!!top" expanded="false" />
+                    <element signature="n#template#12;n#!!top" expanded="false" />
+                    <marker date="1486914262077" expanded="false" signature="19910:19925" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="491">
+                  <caret line="245" column="18" lean-forward="true" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#template#1;n#!!top" expanded="false" />
+                    <element signature="n#template#2;n#!!top" expanded="false" />
+                    <element signature="n#template#3;n#!!top" expanded="false" />
+                    <element signature="n#template#4;n#!!top" expanded="false" />
+                    <element signature="n#template#5;n#!!top" expanded="false" />
+                    <element signature="n#template#9;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,6 +140,7 @@
         <option value="$PROJECT_DIR$/public/assets/css/main.css" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/main.js" />
+        <option value="$PROJECT_DIR$/client/main.css" />
       </list>
     </option>
   </component>
@@ -302,12 +326,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486759541651</updated>
       <workItem from="1486759543177" duration="9245000" />
-      <workItem from="1486821945719" duration="15504000" />
+      <workItem from="1486821945719" duration="26987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24749000" />
+    <option name="totallyTimeSpent" value="36232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1931" y="0" width="1920" height="1044" extended-state="6" />
@@ -379,9 +403,7 @@
         <state relative-caret-position="864">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="n#template#0;n#!!top" expanded="false" />
-            <element signature="n#template#2;n#!!top" expanded="false" />
-            <element signature="n#template#3;n#!!top" expanded="false" />
+            <element signature="n#template#1;n#!!top" expanded="false" />
             <element signature="n#template#4;n#!!top" expanded="false" />
             <element signature="n#template#5;n#!!top" expanded="false" />
             <element signature="n#template#6;n#!!top" expanded="false" />
@@ -389,9 +411,10 @@
             <element signature="n#template#8;n#!!top" expanded="false" />
             <element signature="n#template#10;n#!!top" expanded="false" />
             <element signature="n#script#6;n#template#10;n#!!top" expanded="false" />
-            <element signature="e#20436#20498#0#HTML" expanded="false" />
+            <element signature="e#20334#20396#0#HTML" expanded="false" />
+            <element signature="n#template#11;n#!!top" expanded="false" />
             <element signature="n#template#12;n#!!top" expanded="false" />
-            <marker date="1486895511318" expanded="false" signature="20012:20027" ph="..." />
+            <marker date="1486914262077" expanded="false" signature="19910:19925" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,28 +446,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="8417" column="33" lean-forward="false" selection-start-line="8417" selection-start-column="33" selection-end-line="8417" selection-end-column="33" />
+        <state relative-caret-position="10713">
+          <caret line="8354" column="13" lean-forward="true" selection-start-line="8354" selection-start-column="13" selection-end-line="8354" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.css">
+    <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="846">
+          <caret line="244" column="23" lean-forward="true" selection-start-line="244" selection-start-column="23" selection-end-line="244" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="n#TextScramble#0" expanded="false" />
+            <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
+            <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="1024" column="6" lean-forward="false" selection-start-line="1024" selection-start-column="6" selection-end-line="1024" selection-end-column="6" />
+        <state relative-caret-position="1044">
+          <caret line="1028" column="11" lean-forward="false" selection-start-line="1028" selection-start-column="11" selection-end-line="1028" selection-end-column="11" />
           <folding>
-            <element signature="n#template#0;n#!!top" expanded="false" />
-            <element signature="n#template#2;n#!!top" expanded="false" />
-            <element signature="n#template#3;n#!!top" expanded="false" />
+            <element signature="n#template#1;n#!!top" expanded="false" />
             <element signature="n#template#4;n#!!top" expanded="false" />
             <element signature="n#template#5;n#!!top" expanded="false" />
             <element signature="n#template#6;n#!!top" expanded="false" />
@@ -452,23 +478,19 @@
             <element signature="n#template#8;n#!!top" expanded="false" />
             <element signature="n#template#10;n#!!top" expanded="false" />
             <element signature="n#script#6;n#template#10;n#!!top" expanded="false" />
-            <element signature="e#20436#20498#0#HTML" expanded="false" />
+            <element signature="e#20334#20396#0#HTML" expanded="false" />
+            <element signature="n#template#11;n#!!top" expanded="false" />
             <element signature="n#template#12;n#!!top" expanded="false" />
-            <marker date="1486895511318" expanded="false" signature="20012:20027" ph="..." />
+            <marker date="1486914262077" expanded="false" signature="19910:19925" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
+    <entry file="file://$PROJECT_DIR$/client/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="n#TextScramble#0" expanded="false" />
-            <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
-            <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -12,11 +12,11 @@
   <template name="content">
       {{>scriptsHaut}}
       <div id="wrapper" class="divided">
-          {{>section1}}
-          {{>section2}}
+          {{>hero}}
+          {{>portrait}}
+          {{>publications}}
           {{>section3}}
           {{>section4}}
-          {{>section5}}
           {{>section6}}
           {{>section7}}
           {{>footer}}
@@ -25,9 +25,9 @@
   </template>
 
   <!-- Templates -->
-  <template name="section1">
+  <template name="hero">
 
-    <!-- section1 -->
+    <!-- hero -->
     <section class="banner onload-image-fade-in onload-content-fade-up invert - style5 fullscreen content-align-center image-position-center">
         <div class="content">
             <h1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="logo" width="150" height="150" x="0px" y="0px" viewBox="0 0 1417.3 1417.3" xml:space="preserve" enable-background="new 0 0 1417.3 1417.3">
@@ -64,57 +64,32 @@
     </section>
 
   </template>
-  <template name="section2">
+  <template name="portrait">
       <!-- section2 -->
-      <section class="spotlight onscroll-image-fade-in invert - style1 orient-right content-align-left image-position-left" id="first">
+      <section class="spotlight onscroll-image-fade-in invert style2 content-align-left image-position-center orient-left" id="{{id}}">
           <div class="content">
-              <h2></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+              <header>
+                  <h2>{{h2}}</h2>
+                  <p>{{subtitle}}</p>
+              </header>
+              <p>{{p1}}</p>
+              <p>{{p2}}</p>
+              <p>{{p3}}</p>
               <ul class="actions vertical">
-                  <li><a href="#" class="button">Learn More</a></li>
+                  <li><a href="{{a}}" class="button" target="_blank">{{aTitle}}</a></li>
               </ul>
           </div>
           <div class="image">
-              <img src="images/spotlight01.jpg" alt="" />
+              <a href="{{a}}"><img src="{{img}}" alt="{{alt}}" /></a>
           </div>
       </section>
 
   </template>
-  <template name="section3">
-      <!-- section3 -->
-      <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-          <div class="content">
-              <h2>Tempus adipiscing</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-              <ul class="actions vertical">
-                  <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-          </div>
-          <div class="image">
-              <img src="/images/spotlight02.jpg" alt="" />
-          </div>
-      </section>
-  </template>
-  <template name="section4">
-      <!-- section4 -->
-      <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-          <div class="content">
-              <h2>Pharetra etiam nulla</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-              <ul class="actions vertical">
-                  <li><a href="#" class="button">Learn More</a></li>
-              </ul>
-          </div>
-          <div class="image">
-              <img src="images/spotlight03.jpg" alt="" />
-          </div>
-      </section>
-  </template>
-  <template name="section5">
-      <!-- section5 -->
+  <template name="publications">
+      <!-- publications -->
       <section class="wrapper style1 align-center">
           <div class="inner">
-              <h2>Massa sed condimentum</h2>
+              <h2>{{h2}}</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
           </div>
 
@@ -268,6 +243,37 @@
 
       </section>
   </template>
+  <template name="section3">
+      <!-- section3 -->
+      <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+          <div class="content">
+              <h2>Tempus adipiscing</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+              <ul class="actions vertical">
+                  <li><a href="#" class="button">Learn More</a></li>
+              </ul>
+          </div>
+          <div class="image">
+              <img src="/images/spotlight02.jpg" alt="" />
+          </div>
+      </section>
+  </template>
+  <template name="section4">
+      <!-- section4 -->
+      <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+          <div class="content">
+              <h2>Pharetra etiam nulla</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+              <ul class="actions vertical">
+                  <li><a href="#" class="button">Learn More</a></li>
+              </ul>
+          </div>
+          <div class="image">
+              <img src="images/spotlight03.jpg" alt="" />
+          </div>
+      </section>
+  </template>
+
   <template name="section6">
       <!-- section6 -->
       <section class="wrapper style1 align-center">
@@ -1020,15 +1026,14 @@
   </template>
 
   <!-- Sous-templates -->
-  <!-- section1-->
+  <!-- hero-->
   <template name = "storytelling">
       <p class="text major">
 
-          Pour commencer, saisissez un prénom
+          Pour commencer, autorisez le partage de votre localisation
       </p>
-      <input type="text" id="firstInput"><input type="submit" name="nameInput" id="firstBtn" value="Valider" />
       <ul class="actions vertical">
-          <li><a href="#first" class="button big wide smooth-scroll-middle discoverBtn">Allons-y</a></li>
+          <li id="storytellingLink"></li>
       </ul>
 
   </template>
@@ -1037,7 +1042,7 @@
       <div class="image scene" id="scene">
 
           <li class="layer" data-depth="0.50"><img src="images/banner{{imageId}}.jpg" alt="background" /></li>
-
+          {{! ajouter ici des plans au parralax}}
 
       </div>
   </template>
