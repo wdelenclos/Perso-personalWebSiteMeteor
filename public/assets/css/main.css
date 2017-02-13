@@ -8426,6 +8426,6 @@
 				border-radius: 6px;!important;
 			}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
+article, aside, details, figcaption, figure, footer, hgroup, menu, nav {
     float: left;
 }
