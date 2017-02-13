@@ -1,6 +1,12 @@
 import { Meteor } from 'meteor/meteor';
+import { Houston } from 'meteor/houston';
 
-
+Houston.methods("Posts", {
+    "Publish": function (post) {
+        Posts.update(post._id, {$set: {published: true}});
+        return post.name + " published successfully.";
+    }
+});
 
 Meteor.startup(() => {
 
