@@ -1,7 +1,8 @@
 import { Template } from 'meteor/templating';
 import './main.html';
 
-
+var today = new Date();
+var annee = today.getFullYear();
 
 
 // Fonction de la localisation & du storytelling
@@ -229,8 +230,12 @@ Template.publications.helpers({
     p: "Découvrez mes derniers articles publiés sur Medium",
 
 });
-var today = new Date();
-var annee = today.getFullYear();
+Template.gallerie.helpers({
+    h2: "Réalisations",
+    p: "Parmis mes projets ",
+
+});
+
 Template.footer.helpers({
 
     credits: "W Delenclos - " + annee,
