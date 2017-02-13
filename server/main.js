@@ -31,8 +31,7 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-        feedData = Scrape.feed("https://www.behance.net/mikekotkov");
-        return feedData;
+
     }
 });
 

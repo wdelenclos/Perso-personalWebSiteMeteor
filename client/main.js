@@ -1,6 +1,10 @@
 import { Template } from 'meteor/templating';
 import './main.html';
 
+var Behance = require("node-behance-api");
+var behance = new Behance({"client_id": "XVZeqTYLSrh9O2wNbqFJf8bfZXDE9M9w"});
+Behance.initOptions();
+
 var today = new Date();
 var annee = today.getFullYear();
 
@@ -263,8 +267,18 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
 
 Meteor.call("gallerie", function(err, res) {
 
-    console.log(res);
+    behance.get({
+        api: Behance.APIS.GET_USER,
+        params: { //or simply behance.get('user',
+            user:'deepakmshrma'
 
+        }
+    }, function (error, result) {
+        if (error)
+            return error;
+        else
+            return result;
+    });
 });
 
 
