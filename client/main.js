@@ -1,5 +1,9 @@
 import { Template } from 'meteor/templating';
+import './projects.js;
 import './main.html';
+
+
+console.log(dataProjects[1]);
 
 var today = new Date();
 var annee = today.getFullYear();
