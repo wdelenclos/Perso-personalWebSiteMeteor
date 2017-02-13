@@ -1,4 +1,11 @@
 import { Meteor } from 'meteor/meteor';
+
+var Behance = require("node-behance");
+var keys = {
+    "client_id": "XVZeqTYLSrh9O2wNbqFJf8bfZXDE9M9w",
+    "client_secret":""
+}
+var behance = new Behance(keys);
 Meteor.startup(() => {
 
 // Listen to incoming HTTP requests, can only be used on the server
@@ -31,7 +38,10 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-
+    // Get Proyects
+        behance.get('projects', function(result){
+           return result;
+        });
     }
 });
 
