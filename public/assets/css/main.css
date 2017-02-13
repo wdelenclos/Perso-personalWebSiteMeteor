@@ -4110,7 +4110,7 @@
 				width: 100%;
 				min-height: 60rem;
 				border-radius: 0;
-                opacity: 0.7;
+                opacity: 1;
 			}
 
 		@media screen and (max-width: 1680px) {
