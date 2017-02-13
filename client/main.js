@@ -1,6 +1,53 @@
 import { Template } from 'meteor/templating';
-import './projects.js;
 import './main.html';
+
+
+
+
+
+
+
+
+var dataProjects = [
+    {
+        "title": "Test",
+        "p":"Lorem ipsum",
+        "imgSrc": "http://imgurl.com",
+        "link": "http://test.com"
+    },
+    {
+        "title": "Test",
+        "p":"Lorem ipsum",
+        "imgSrc": "http://imgurl.com",
+        "link": "http://test.com"
+    },
+    {
+        "title": "Test",
+        "p":"Lorem ipsum",
+        "imgSrc": "http://imgurl.com",
+        "link": "http://test.com"
+    },
+    {
+        "title": "Test",
+        "p":"Lorem ipsum",
+        "imgSrc": "http://imgurl.com",
+        "link": "http://test.com"
+    }
+
+
+
+];
+
+
+
+
+
+
+
+
+
+
+
 
 
 console.log(dataProjects[1]);
