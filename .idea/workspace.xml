@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4195f28b-4a1d-4eda-8eb5-2fd18d2e5145" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/main.js" afterPath="$PROJECT_DIR$/server/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,29 +27,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.45543945">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="66">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#45#0" expanded="true" />
                     <element signature="n#TextScramble#0" expanded="false" />
                     <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
                     <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-                    <element signature="e#5939#6352#0" expanded="false" />
-                    <element signature="e#6437#7488#0" expanded="false" />
-                    <element signature="e#8115#8702#0" expanded="false" />
+                    <element signature="e#5941#6354#0" expanded="false" />
+                    <element signature="e#6439#7490#0" expanded="false" />
+                    <element signature="e#8117#8704#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/server/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
-                  <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+                <state relative-caret-position="44">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -141,9 +142,9 @@
         <option value="$PROJECT_DIR$/client/functions.js" />
         <option value="$PROJECT_DIR$/client/main.css" />
         <option value="$PROJECT_DIR$/public/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/server/main.js" />
+        <option value="$PROJECT_DIR$/client/main.js" />
       </list>
     </option>
   </component>
@@ -368,12 +369,12 @@
       <workItem from="1486759543177" duration="9245000" />
       <workItem from="1486821945719" duration="48243000" />
       <workItem from="1486971256706" duration="5092000" />
-      <workItem from="1486982314224" duration="11383000" />
+      <workItem from="1486982314224" duration="11550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73963000" />
+    <option name="totallyTimeSpent" value="74130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -428,9 +429,9 @@
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#5939#6352#0" expanded="false" />
-            <element signature="e#6437#7488#0" expanded="false" />
-            <element signature="e#8115#8702#0" expanded="false" />
+            <element signature="e#5941#6354#0" expanded="false" />
+            <element signature="e#6439#7490#0" expanded="false" />
+            <element signature="e#8117#8704#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,9 +477,9 @@
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#5939#6352#0" expanded="false" />
-            <element signature="e#6437#7488#0" expanded="false" />
-            <element signature="e#8115#8702#0" expanded="false" />
+            <element signature="e#5941#6354#0" expanded="false" />
+            <element signature="e#6439#7490#0" expanded="false" />
+            <element signature="e#8117#8704#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -524,9 +525,9 @@
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#5939#6352#0" expanded="false" />
-            <element signature="e#6437#7488#0" expanded="false" />
-            <element signature="e#8115#8702#0" expanded="false" />
+            <element signature="e#5941#6354#0" expanded="false" />
+            <element signature="e#6439#7490#0" expanded="false" />
+            <element signature="e#8117#8704#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,22 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="n#TextScramble#0" expanded="false" />
-            <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
-            <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#5939#6352#0" expanded="false" />
-            <element signature="e#6437#7488#0" expanded="false" />
-            <element signature="e#8115#8702#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
@@ -615,9 +600,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="n#TextScramble#0" expanded="false" />
+            <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
+            <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
+            <element signature="e#5941#6354#0" expanded="false" />
+            <element signature="e#6439#7490#0" expanded="false" />
+            <element signature="e#8117#8704#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
