@@ -9,7 +9,6 @@ Meteor.startup(() => {
 
 });
 
-
 Meteor.methods({
     publication: function() {
         scraper = require('medium-scraper');
