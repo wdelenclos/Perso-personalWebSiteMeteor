@@ -1,8 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 
 
-
-var behance = new Behance(keys);
 Meteor.startup(() => {
 
 // Listen to incoming HTTP requests, can only be used on the server
@@ -35,7 +33,7 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-   
+
     }
 });
 
