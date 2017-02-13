@@ -5,7 +5,7 @@ Une one page application qui a pour objectif la prise de contact de façon exper
 
 
 ```javascript
-DEPENDANCES
+PACKAGES
 
 anonyfox:scrape        0.0.10  Scrape any Website or RSS/Atom-Feed with ease
 autopublish            1.0.7  (For prototyping only) Publish the entire database to all clients
