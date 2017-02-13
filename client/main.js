@@ -221,7 +221,7 @@ Template.portrait.helpers({
     p3:" Ces recherches et connaissances théoriques viennent se completer en un savoir-faire technique; aussi bien créatif (aquis en classe préparatoire pour les arts décoratifs) qu'en développement (JS, NodeJS, Meteor, PHP ...) qui me permettent de passer par moi même mes idées en produits finaux.",
     aTitle: "Voir mon profil LinkedIn",
     a:"https://www.linkedin.com/in/wdelenclos",
-    img:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAf5AAAAJDI2NmViNjAyLWNkN2EtNDIxNC1iN2YyLWRiMzNkY2IyOTg3Zg.jpg",
+    img:"images/profil.jpg",
     alt:"Portrait de Wladimir Delenclos",
 });
 Template.publications.helpers({
