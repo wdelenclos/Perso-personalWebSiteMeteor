@@ -1,5 +1,13 @@
 import { Meteor } from 'meteor/meteor';
+import { Behance } from 'meteor/behance-api';
 
+Be = new Behance('XVZeqTYLSrh9O2wNbqFJf8bfZXDE9M9w');
+
+    id="wdelenclosa55e";
+
+    Be.userProjects(id, opts, function(err, res, data) {
+        console.dir(data);
+    });
 
 Meteor.startup(() => {
 
