@@ -1,57 +1,6 @@
 import { Template } from 'meteor/templating';
 import './main.html';
 
-
-
-
-
-
-
-
-var dataProjects = [
-    {
-        "title": "Test",
-        "p":"Lorem ipsum",
-        "imgSrc": "http://imgurl.com",
-        "link": "http://test.com"
-    },
-    {
-        "title": "Test",
-        "p":"Lorem ipsum",
-        "imgSrc": "http://imgurl.com",
-        "link": "http://test.com"
-    },
-    {
-        "title": "Test",
-        "p":"Lorem ipsum",
-        "imgSrc": "http://imgurl.com",
-        "link": "http://test.com"
-    },
-    {
-        "title": "Test",
-        "p":"Lorem ipsum",
-        "imgSrc": "http://imgurl.com",
-        "link": "http://test.com"
-    }
-
-
-
-];
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log(dataProjects[1]);
-
 var today = new Date();
 var annee = today.getFullYear();
 
