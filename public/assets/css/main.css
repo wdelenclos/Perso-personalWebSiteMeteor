@@ -8426,3 +8426,6 @@
 				border-radius: 6px;!important;
 			}
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
+    float: left;
+}
