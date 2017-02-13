@@ -19,6 +19,7 @@ Meteor.methods({
         return publications;
     }
 });
+
 Meteor.methods({
     publicationTitle: function() {
         feedData = Scrape.feed("https://medium.com/feed/@wdelenclos/");
@@ -28,4 +29,10 @@ Meteor.methods({
 
 
 
+Meteor.methods({
+    gallerie: function() {
+        feedData = Scrape.feed("https://www.behance.net/mikekotkov");
+        return feedData;
+    }
+});
 

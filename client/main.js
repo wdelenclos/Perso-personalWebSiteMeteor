@@ -228,20 +228,18 @@ Template.portrait.helpers({
 Template.publications.helpers({
     h2: "Dernières publications",
     p: "Découvrez mes derniers articles publiés sur Medium",
-
 });
+
 Template.gallerie.helpers({
     h2: "Réalisations",
     p: "Parcourez certains de mes projets",
-
 });
 
 Template.footer.helpers({
-
     credits: "W Delenclos - " + annee,
     username: "wdelenclos",
-
 });
+
 
 // Generation contenus dynamique des templates (fonctions)
 
@@ -263,6 +261,11 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
     });
 });
 
+Meteor.call("gallerie", function(err, res) {
+
+    console.log(res);
+
+});
 
 
 // Events des templates
