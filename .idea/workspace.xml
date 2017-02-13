@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4195f28b-4a1d-4eda-8eb5-2fd18d2e5145" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/main.js" afterPath="$PROJECT_DIR$/server/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,16 +29,15 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
-                  <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
                   <folding>
-                    <element signature="e#0#45#0" expanded="true" />
                     <element signature="n#TextScramble#0" expanded="false" />
                     <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
                     <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-                    <element signature="e#6084#6497#0" expanded="false" />
-                    <element signature="e#6582#7633#0" expanded="false" />
-                    <element signature="e#8260#8847#0" expanded="false" />
+                    <element signature="e#6085#6498#0" expanded="false" />
+                    <element signature="e#6583#7634#0" expanded="false" />
+                    <element signature="e#8261#8848#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -355,12 +352,12 @@
       <workItem from="1486759543177" duration="9245000" />
       <workItem from="1486821945719" duration="48243000" />
       <workItem from="1486971256706" duration="5092000" />
-      <workItem from="1486982314224" duration="6904000" />
+      <workItem from="1486982314224" duration="7638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69484000" />
+    <option name="totallyTimeSpent" value="70218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -411,13 +408,12 @@
         <state relative-caret-position="462">
           <caret line="228" column="59" selection-start-line="228" selection-start-column="59" selection-end-line="228" selection-end-column="59" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#6084#6497#0" expanded="false" />
-            <element signature="e#6582#7633#0" expanded="false" />
-            <element signature="e#8260#8847#0" expanded="false" />
+            <element signature="e#6085#6498#0" expanded="false" />
+            <element signature="e#6583#7634#0" expanded="false" />
+            <element signature="e#8261#8848#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -459,13 +455,12 @@
         <state relative-caret-position="2244">
           <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#6084#6497#0" expanded="false" />
-            <element signature="e#6582#7633#0" expanded="false" />
-            <element signature="e#8260#8847#0" expanded="false" />
+            <element signature="e#6085#6498#0" expanded="false" />
+            <element signature="e#6583#7634#0" expanded="false" />
+            <element signature="e#8261#8848#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -507,13 +502,12 @@
         <state relative-caret-position="2160">
           <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#6084#6497#0" expanded="false" />
-            <element signature="e#6582#7633#0" expanded="false" />
-            <element signature="e#8260#8847#0" expanded="false" />
+            <element signature="e#6085#6498#0" expanded="false" />
+            <element signature="e#6583#7634#0" expanded="false" />
+            <element signature="e#8261#8848#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,16 +588,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
             <element signature="n#TextScramble#0" expanded="false" />
             <element signature="n#!!block;n#storytellingLocate#0" expanded="false" />
             <element signature="n#!!block;n#storytellingUnlocate#0" expanded="false" />
-            <element signature="e#6084#6497#0" expanded="false" />
-            <element signature="e#6582#7633#0" expanded="false" />
-            <element signature="e#8260#8847#0" expanded="false" />
+            <element signature="e#6085#6498#0" expanded="false" />
+            <element signature="e#6583#7634#0" expanded="false" />
+            <element signature="e#8261#8848#0" expanded="false" />
           </folding>
         </state>
       </provider>
