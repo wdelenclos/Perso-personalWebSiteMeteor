@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { Behance } from 'meteor/behance-api';
+import { Behance } from 'behance-api';
 
 Be = new Behance('XVZeqTYLSrh9O2wNbqFJf8bfZXDE9M9w');
 
