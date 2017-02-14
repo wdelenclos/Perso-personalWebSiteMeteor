@@ -29,7 +29,8 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-
+        feedGitLab = Scrape.url("https://gitlab.com/users/wdelenclos/projects");
+        console.log(feedGitLab);
 
         var data = [
             {
