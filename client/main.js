@@ -256,7 +256,7 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
     Meteor.call("publicationTitle", function(irr, ras) {
     for( var i = 0; i < res.length; i++) {
         var titre = ras.items[i].title;
-        document.querySelector('#publications').innerHTML = "<article id=\"publication" + i + "\"><a href=\""+ res[i].url+"\" target='_blank' class=\"image\"> <img src=\""+res[i].image+"\" alt=\""+titre+"\" /> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+ res[i].time+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
+        document.querySelector('#publications').innerHTML += "<article id=\"publication" + i + "\"><a href=\""+ res[i].url+"\" target='_blank' class=\"image\"> <img src=\""+res[i].image+"\" alt=\""+titre+"\" /> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+ res[i].time+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
     }
     });
 });
@@ -273,7 +273,7 @@ Meteor.call("gallerie", function(err, res) {
          url = res[i].url;
          imgurl = res[i].imgurl;
          p = res[i].p;
-        document.querySelector('#gallerie').innerHTML = "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir</span></li> </ul> </div> </article>";
+        document.querySelector('#gallerie').innerHTML += "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir</span></li> </ul> </div> </article>";
     }
 });
 
