@@ -33,10 +33,10 @@ Meteor.methods({
 
         var data = [
             {
-                "title": "Test1",
-                "url": "http://image.com",
-                "imgurl": "http://image.com",
-                "p":"Loram ipsum"
+                "title": "Site Mister G Bros",
+                "url": "http://mistergbros.com",
+                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/09/Capture-d%E2%80%99e%CC%81cran-2016-09-19-a%CC%80-18.09.02.png",
+                "p":"Création et développement du site de l'agence Mister G"
             },
             {
                 "title": "Test1",
