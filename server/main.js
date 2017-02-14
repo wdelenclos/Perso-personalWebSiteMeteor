@@ -29,29 +29,7 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-        feedGitLab = Scrape.feed("https://gitlab.com/wdelenclos.atom?private_token=UReVQM25aekZx_ZmmsHd");
-
-        var data = [
-            {
-                "title": "Site Mister G Bros",
-                "url": "http://mistergbros.com",
-                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/09/Capture-d%E2%80%99e%CC%81cran-2016-09-19-a%CC%80-18.09.02.png",
-                "p":"Création et développement du site de l'agence Mister G"
-            },
-            {
-                "title": "Interface Livebox Orange",
-                "url": "",
-                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/05/Showcase-Devices-Presentatio2n.jpg",
-                "p":"Concept d'interface Livebox Orange (non officiel)"
-            },
-            {
-                "title": "Datafood",
-                "url": "",
-                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/01/Sans-titre-13.jpg",
-                "p":"Logiciel de gestion de commande Datafood 100% JSON & Javascript, utilisant le LocaStorage."
-            }
-        ]
-
+        feedGitLab = Scrape.url("https://gitlab.com/api/v3/projects?private_token=syaM4segXp8C_5GLHTSU");
         return feedGitLab;
     }
 });
