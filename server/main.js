@@ -34,3 +34,9 @@ Meteor.methods({
     }
 });
 
+Meteor.methods({
+    titre: function() {
+        feedLinkedin = Scrape.feed("https://www.linkedin.com/in/wdelenclos");
+        return feedLinkedin;
+    }
+});
