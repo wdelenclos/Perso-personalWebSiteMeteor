@@ -1,7 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(() => {
-
 // Listen to incoming HTTP requests, can only be used on the server
     WebApp.rawConnectHandlers.use(function(req, res, next) {
         res.setHeader("Access-Control-Allow-Origin", "*");
@@ -28,11 +27,29 @@ Meteor.methods({
     }
 });
 
-
-
 Meteor.methods({
     gallerie: function() {
 
+
+        var data = [
+            {
+                "title": "Test1",
+                "url": "http://image.com",
+                "p":"Loram ipsum"
+            },
+            {
+                "title": "Test1",
+                "url": "http://image.com",
+                "p":"Loram ipsum"
+            },
+            {
+                "title": "Test1",
+                "url": "http://image.com",
+                "p":"Loram ipsum"
+            }
+        ]
+
+        return data;
     }
 });
 
