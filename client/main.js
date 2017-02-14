@@ -236,7 +236,7 @@ Template.gallerie.helpers({
 });
 
 Template.footer.helpers({
-    credits: "W Delenclos - " + annee,
+    credits: "Wladimir Delenclos - " + annee,
     username: "wdelenclos",
 });
 
