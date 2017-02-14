@@ -39,16 +39,16 @@ Meteor.methods({
                 "p":"Création et développement du site de l'agence Mister G"
             },
             {
-                "title": "Test1",
-                "url": "http://image.com",
-                "imgurl": "http://image.com",
-                "p":"Loram ipsum"
+                "title": "Interface Livebox Orange",
+                "url": "",
+                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/05/Showcase-Devices-Presentatio2n.jpg",
+                "p":"Concept d'interface Livebox Orange (non officiel)"
             },
             {
-                "title": "Test1",
-                "url": "http://image.com",
-                "imgurl": "http://image.com",
-                "p":"Loram ipsum"
+                "title": "Datafood",
+                "url": "",
+                "imgurl": "http://wdelenclos.fr/wp-content/uploads/2016/01/Sans-titre-13.jpg",
+                "p":"Logiciel de gestion de commande Datafood 100% JSON & Javascript, utilisant le LocaStorage."
             }
         ]
 

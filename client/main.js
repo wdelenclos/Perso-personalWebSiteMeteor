@@ -232,7 +232,7 @@ Template.publications.helpers({
 
 Template.gallerie.helpers({
     h2: "Réalisations",
-    p: "Parcourez certains de mes projets",
+    p: "Parcourez certains de mes projets et clients",
 });
 
 Template.footer.helpers({
