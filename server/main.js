@@ -35,16 +35,19 @@ Meteor.methods({
             {
                 "title": "Test1",
                 "url": "http://image.com",
+                "imgurl": "http://image.com",
                 "p":"Loram ipsum"
             },
             {
                 "title": "Test1",
                 "url": "http://image.com",
+                "imgurl": "http://image.com",
                 "p":"Loram ipsum"
             },
             {
                 "title": "Test1",
                 "url": "http://image.com",
+                "imgurl": "http://image.com",
                 "p":"Loram ipsum"
             }
         ]

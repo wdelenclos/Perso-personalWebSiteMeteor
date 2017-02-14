@@ -263,11 +263,17 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
 
 Meteor.call("gallerie", function(err, res) {
     console.log(res);
-    for( var i = 0; i < res.length; i++) {
-        var titre = res[i].title;
-        var url = res[i].url;
-        var p = res[i].p;
-        document.querySelector('#gallerie').innerHTML = "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\"images/gallery/thumbs/01.jpg\" alt=\"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir</span></li> </ul> </div> </article>";
+    let titre ;
+    let url ;
+    let imgurl ;
+    let p ;
+
+    for( let i = 0; i < res.length; i++) {
+         titre = res[i].title;
+         url = res[i].url;
+         imgurl = res[i].imgurl;
+         p = res[i].p;
+        document.querySelector('#gallerie').innerHTML = "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir</span></li> </ul> </div> </article>";
     }
 });
 
