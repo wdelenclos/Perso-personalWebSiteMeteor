@@ -214,7 +214,6 @@ $( window ).load(function() {
 
 // Generation contenus statiques des templates(JSON)
 Meteor.call("titre", function(irr, res) {
-console.log(res);
 
 });
 
@@ -269,7 +268,6 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
 });
 
 Meteor.call("gallerie", function(err, res) {
-    console.log(res);
     let titre ;
     let url ;
     let imgurl ;
@@ -281,7 +279,7 @@ Meteor.call("gallerie", function(err, res) {
                 url = res[i].http_url_to_repo;
                 imgurl = res[i].avatar_url;
                 p = res[i].description;
-                document.querySelector('#gallerie').innerHTML += "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">En savoir plus</span></li> </ul> </div> </article>";
+                document.querySelector('#gallerie').innerHTML += "<article><a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">En savoir plus</span></li> </ul> </div> </article>";
 
             }
         }
