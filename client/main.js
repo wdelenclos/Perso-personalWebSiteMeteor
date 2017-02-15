@@ -94,48 +94,37 @@ function storytellingLocate(position) {
     // ——————————————————————————————————————————————————
 
 
-    if(distance < 2){
+    if(distance < 25){
         var phrases = [
-            'Bonjour',
-            'Pour l\'instant ' + distance + ' km nous séparent',
-            'heureusement, le digital nous a permet de nous rencontrer',
-            'ou simplement s\'ajouter sur les réseaux sociaux',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
-        ];
-        var link = "#first";
-        var linkText = "Go";
+            distance + ' km nous séparent en ce moment même',
+            'mais grầce à internet, nous faisons connaissance.',
+            'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
+            'des appareils qui connectent ...',
+            'transmettent & intéragissent ...',
+            'nous aident et apprennent de nous :',
+            'le digital repense notre façon de voir le monde',
+            'il nous émerveille.'
 
-    }
-    else if(distance < 25){
-        var phrases = [
-            distance + ' km nous séparent',
-            'sooner or later',
-            'you\'re going to realize',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
         ];
-        var link = "#first";
-        var linkText = "Go";
+        var link = "#apropos";
+        var linkText = "Découvrir";
 
     }
 
     else{
         var phrases = [
-            distance + ' km nous séparent, c\'est un peu loin ...',
-            'mais ne digital nous rapproche',
-            'you\'re going to realize',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
+            distance + ' km nous séprent',
+            'mais grầce à internet, nous faisons connaissance.',
+            'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
+            'des appareils qui connectent ...',
+            'transmettent & intéragissent ...',
+            'nous aident et apprennent de nous :',
+            'le digital repense notre façon de voir le monde',
+            'il nous émerveille.'
 
         ];
-        var link = "#first";
-        var linkText = "Go";
+        var link = "#apropos";
+        var linkText = "Découvrir";
     }
 
     document.querySelector('#storytellingLink').innerHTML = "<a href=\""+ link + "\" class=\"button big wide smooth-scroll-middle discoverBtn\">"+linkText+"</a>";
@@ -148,7 +137,7 @@ function storytellingLocate(position) {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 1){
+        if(counter == 3){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
@@ -164,16 +153,15 @@ function storytellingUnlocate() {
 
 
     var phrases = [
-        'Je ne sais pas où tu es ... ',
-        '... ni ce que tu fais mais ...',
-        'grâce à internet nous pouvons être plus proche ',
-        'just as I did',
-        'that there\'s a difference',
-        'between knowing the path',
-        'and walking the path'
+        'Avec 28 milliards d\'appareils dans le monde,',
+        '28 milliards d\'appareils qui nous connectent ...',
+        'transmettent & intéragissent ...',
+        'nous aident et apprennent de nous :',
+        'le digital repense notre façon de voir le monde',
+        'il nous émerveille.'
     ]
-    var link = "#first";
-    var linkText = "Go";
+    var link = "#apropos";
+    var linkText = "Découvrir";
 
     document.querySelector('#storytellingLink').innerHTML = "<a href=\""+ link + "\" class=\"button big wide smooth-scroll-middle discoverBtn\">"+linkText+"</a>";
     $('.discoverBtn').hide();
@@ -185,7 +173,7 @@ function storytellingUnlocate() {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 1){
+        if(counter == 3){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
@@ -229,7 +217,8 @@ Template.portrait.helpers({
     aTitle: "Voir mon profil LinkedIn",
     a:"https://www.linkedin.com/in/wdelenclos",
     img:"images/profil.jpg",
-    alt:"Portrait de Wladimir Delenclos"
+    alt:"Portrait de Wladimir Delenclos",
+    id: "apropos"
 });
 Template.publications.helpers({
     h2: "Dernières publications",
