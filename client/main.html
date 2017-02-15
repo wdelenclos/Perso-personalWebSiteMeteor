@@ -1,5 +1,5 @@
   <head>
-    <title>Wladimir Delenclos</title>
+    <title>Wladimir Delenclos | UX Designer - Chef de projet Digital - Developpeur</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -15,6 +15,7 @@
           {{>hero}}
           {{>portrait}}
           {{>publications}}
+          {{>gallerie}}
           {{>footer}}
       </div>
       {{>scriptsBas}}
@@ -62,7 +63,7 @@
   </template>
   <template name="portrait">
       <!-- section2 -->
-      <section class="spotlight onscroll-image-fade-in invert style2 content-align-left image-position-center orient-left" id="{{id}}">
+      <section class="spotlight onscroll-image-fade-in style2 content-align-left image-position-center orient-left" id="{{id}}">
           <div class="content">
               <header>
                   <h2>{{h2}}</h2>
@@ -83,30 +84,31 @@
   </template>
   <template name="publications">
       <!-- publications -->
-      <section class="wrapper style1 align-center">
+      <section class="wrapper style1 align-center invert">
           <div class="inner">
               <h2>{{h2}}</h2>
               <p>{{p}}</p>
           </div>
           <div id="publications" class="gallery style2 medium lightbox onscroll-fade-in">
-s
+
           </div>
 
       </section>
   </template>
-  <template name="section3">
-      <!-- section3 -->
-      <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-          <div class="content">
-              <h2>Tempus adipiscing</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-              <ul class="actions vertical">
-                  <li><a href="#" class="button">Learn More</a></li>
-              </ul>
+  <template name="gallerie">
+      <section class="wrapper style1 align-center">
+          <div class="inner">
+              <h2>{{h2}}</h2>
+              <p>{{p}}</p>
           </div>
-          <div class="image">
-              <img src="/images/spotlight02.jpg" alt="" />
+
+          <!-- gallerie -->
+          <div class="gallery lightbox onscroll-fade-in style1 small"><div class="modal" tabindex="-1"><div class="inner"><img src=""></div></div><div class="forward"></div><div class="backward"></div>
+              <div id="gallerie" class="inner" style="overflow: hidden;">
+
+              </div>
           </div>
+
       </section>
   </template>
   <template name="section4">
@@ -852,5 +854,4 @@ s
 
       </div>
   </template>
-
 

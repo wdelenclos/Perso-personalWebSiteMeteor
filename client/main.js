@@ -1,7 +1,8 @@
 import { Template } from 'meteor/templating';
 import './main.html';
 
-
+var today = new Date();
+var annee = today.getFullYear();
 
 
 // Fonction de la localisation & du storytelling
@@ -93,48 +94,37 @@ function storytellingLocate(position) {
     // ——————————————————————————————————————————————————
 
 
-    if(distance < 2){
+    if(distance < 25){
         var phrases = [
-            'Bonjour',
-            'Pour l\'instant ' + distance + ' km nous séparent',
-            'heureusement, le digital nous a permet de nous rencontrer',
-            'ou simplement s\'ajouter sur les réseaux sociaux',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
-        ];
-        var link = "#first";
-        var linkText = "Go";
+            distance + ' km nous séparent en ce moment même',
+            'mais grầce à internet, nous faisons connaissance.',
+            'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
+            'des appareils qui connectent ...',
+            'transmettent & intéragissent ...',
+            'nous aident et apprennent de nous :',
+            'le digital repense notre façon de voir le monde',
+            'il nous émerveille.'
 
-    }
-    else if(distance < 25){
-        var phrases = [
-            distance + ' km nous séparent',
-            'sooner or later',
-            'you\'re going to realize',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
         ];
-        var link = "#first";
-        var linkText = "Go";
+        var link = "#apropos";
+        var linkText = "Découvrir";
 
     }
 
     else{
         var phrases = [
-            distance + ' km nous séparent, c\'est un peu loin ...',
-            'mais ne digital nous rapproche',
-            'you\'re going to realize',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path'
+            distance + ' km nous séprent',
+            'mais grầce à internet, nous faisons connaissance.',
+            'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
+            'des appareils qui connectent ...',
+            'transmettent & intéragissent ...',
+            'nous aident et apprennent de nous :',
+            'le digital repense notre façon de voir le monde',
+            'il nous émerveille.'
 
         ];
-        var link = "#first";
-        var linkText = "Go";
+        var link = "#apropos";
+        var linkText = "Découvrir";
     }
 
     document.querySelector('#storytellingLink').innerHTML = "<a href=\""+ link + "\" class=\"button big wide smooth-scroll-middle discoverBtn\">"+linkText+"</a>";
@@ -147,7 +137,7 @@ function storytellingLocate(position) {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 1){
+        if(counter == 3){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
@@ -163,16 +153,15 @@ function storytellingUnlocate() {
 
 
     var phrases = [
-        'Je ne sais pas où tu es ... ',
-        '... ni ce que tu fais mais ...',
-        'grâce à internet nous pouvons être plus proche ',
-        'just as I did',
-        'that there\'s a difference',
-        'between knowing the path',
-        'and walking the path'
+        'Avec 28 milliards d\'appareils dans le monde,',
+        '28 milliards d\'appareils qui nous connectent ...',
+        'transmettent & intéragissent ...',
+        'nous aident et apprennent de nous :',
+        'le digital repense notre façon de voir le monde',
+        'il nous émerveille.'
     ]
-    var link = "#first";
-    var linkText = "Go";
+    var link = "#apropos";
+    var linkText = "Découvrir";
 
     document.querySelector('#storytellingLink').innerHTML = "<a href=\""+ link + "\" class=\"button big wide smooth-scroll-middle discoverBtn\">"+linkText+"</a>";
     $('.discoverBtn').hide();
@@ -184,7 +173,7 @@ function storytellingUnlocate() {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 1){
+        if(counter == 3){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
@@ -212,31 +201,40 @@ $( window ).load(function() {
 
 
 // Generation contenus statiques des templates(JSON)
+Meteor.call("titre", function(irr, res) {
+
+});
 
 Template.portrait.helpers({
+
+
+
     h2: "A propos",
     subtitle: "Heticien - UX Designer @DigitasLBi",
     p1: "Concevoir et réaliser des expériences sur les supports digitaux suppose à la fois une connaissance générale de tous les enjeux, qu'une expertise approfondie dans certains des domaines qui compose cet univers digital qui s'étends sans cesse toujours plus.",
     p2: "Heticien en Bachelor Chef de projet Multimédia (promotion 2018) et UX Designer chez DigitasLBi, j'approfondis mes connaissances en conception d'expérience utilisateur par des recherches sur le No-Interface Design et les microintérations.",
-    p3:" Ces recherches et connaissances théoriques viennent se completer en un savoir-faire technique; aussi bien créatif (aquis en classe préparatoire pour les arts décoratifs) qu'en développement (JS, NodeJS, Meteor, PHP ...) qui me permettent de passer par moi même mes idées en produits finaux.",
+    p3:" Ces recherches et connaissances théoriques viennent se completer en un savoir-faire technique; aussi bien créatif (aquis en classe préparatoire pour les arts décoratifs) qu'en développement (NodeJS, Meteor, PHP ...) qui me permettent de passer par moi même mes idées en produits finaux.",
     aTitle: "Voir mon profil LinkedIn",
     a:"https://www.linkedin.com/in/wdelenclos",
     img:"images/profil.jpg",
     alt:"Portrait de Wladimir Delenclos",
+    id: "apropos"
 });
 Template.publications.helpers({
     h2: "Dernières publications",
     p: "Découvrez mes derniers articles publiés sur Medium",
-
 });
-var today = new Date();
-var annee = today.getFullYear();
+
+Template.gallerie.helpers({
+    h2: "Réalisations",
+    p: "Parcourez certains de mes projets et clients",
+});
+
 Template.footer.helpers({
-
-    credits: "W Delenclos - " + annee,
+    credits: "Wladimir Delenclos - " + annee,
     username: "wdelenclos",
-
 });
+
 
 // Generation contenus dynamique des templates (fonctions)
 
@@ -253,11 +251,28 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
     Meteor.call("publicationTitle", function(irr, ras) {
     for( var i = 0; i < res.length; i++) {
         var titre = ras.items[i].title;
-        document.querySelector('#publications').innerHTML = "<article id=\"publication" + i + "\"><a href=\""+ res[i].url+"\" target='_blank' class=\"image\"> <img src=\""+res[i].image+"\" alt=\""+titre+"\" /> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+ res[i].time+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
+        document.querySelector('#publications').innerHTML += "<article id=\"publication" + i + "\"><a href=\""+ res[i].url+"\" target='_blank' class=\"image\"> <img src=\""+res[i].image+"\" alt=\""+titre+"\" /> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+ res[i].time+"</p> <ul class=\"actions\"> <li><span class=\"button small\">Lire</span></li> </ul> </div> </article>";
     }
     });
 });
 
+Meteor.call("gallerie", function(err, res) {
+    let titre ;
+    let url ;
+    let imgurl ;
+    let p ;
+
+    for( let i = 0; i < res.length; i++) {
+            if(res[i].owner.name == "WDelenclos"){
+                titre = res[i].name;
+                url = res[i].http_url_to_repo;
+                imgurl = res[i].avatar_url;
+                p = res[i].description;
+                document.querySelector('#gallerie').innerHTML += "<article><a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">En savoir plus</span></li> </ul> </div> </article>";
+
+            }
+        }
+});
 
 
 // Events des templates
