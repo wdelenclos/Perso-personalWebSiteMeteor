@@ -214,7 +214,6 @@ $( window ).load(function() {
 
 // Generation contenus statiques des templates(JSON)
 Meteor.call("titre", function(irr, res) {
-console.log(res);
 
 });
 
@@ -269,7 +268,6 @@ Meteor.call("publication", function(err, res) { // récupération data Medium en
 });
 
 Meteor.call("gallerie", function(err, res) {
-    console.log(res);
     let titre ;
     let url ;
     let imgurl ;
