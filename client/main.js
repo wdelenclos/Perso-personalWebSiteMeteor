@@ -281,7 +281,7 @@ Meteor.call("gallerie", function(err, res) {
                 url = res[i].http_url_to_repo;
                 imgurl = res[i].avatar_url;
                 p = res[i].description;
-                document.querySelector('#gallerie').innerHTML += "  <article> <a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">En savoir plus</span></li> </ul> </div> </article>";
+                document.querySelector('#gallerie').innerHTML += "<article><a href=\""+url+"\" class=\"image\"> <img src=\""+imgurl+"\" alt=\""+titre+"\"> </a> <div class=\"caption\"> <h3>"+titre+"</h3> <p>"+p+".</p> <ul class=\"actions\"> <li><span class=\"button small\">En savoir plus</span></li> </ul> </div> </article>";
 
             }
         }
