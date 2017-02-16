@@ -1,6 +1,11 @@
 import { Template } from 'meteor/templating';
 import './main.html';
 
+if (location.protocol != 'https:')
+{
+    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
 var today = new Date();
 var annee = today.getFullYear();
 
