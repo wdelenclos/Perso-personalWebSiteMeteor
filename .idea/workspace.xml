@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4195f28b-4a1d-4eda-8eb5-2fd18d2e5145" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/fulls/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gallery/thumbs/12.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/banner1.jpg" afterPath="$PROJECT_DIR$/public/images/banner1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/banner2.jpg" afterPath="$PROJECT_DIR$/public/images/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/banner3.jpg" afterPath="$PROJECT_DIR$/public/images/banner3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/banner4.jpg" afterPath="$PROJECT_DIR$/public/images/banner4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/banner5.jpg" afterPath="$PROJECT_DIR$/public/images/banner5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.css" afterPath="$PROJECT_DIR$/client/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/main.js" afterPath="$PROJECT_DIR$/public/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/parallax.js" afterPath="$PROJECT_DIR$/public/assets/js/parallax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/util.js" afterPath="$PROJECT_DIR$/public/assets/js/util.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -168,8 +132,8 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="22235" selection-start-line="0" selection-start-column="22235" selection-end-line="0" selection-end-column="22235" />
+                <state relative-caret-position="479">
+                  <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
                   <folding>
                     <element signature="n#style#0;n#div#3;n#div#1;n#section#0;n#template#4;n#!!top" expanded="true" />
                   </folding>
@@ -184,8 +148,8 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="2807" selection-start-line="0" selection-start-column="2807" selection-end-line="0" selection-end-column="2807" />
+                <state relative-caret-position="770">
+                  <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
                   <folding>
                     <element signature="n#style#0;n#div#3;n#div#1;n#section#0;n#template#4;n#!!top" expanded="true" />
                   </folding>
@@ -553,12 +517,12 @@
       <workItem from="1487192258733" duration="6611000" />
       <workItem from="1487232909258" duration="479000" />
       <workItem from="1487274824446" duration="608000" />
-      <workItem from="1487359995727" duration="1940000" />
+      <workItem from="1487359995727" duration="1998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108820000" />
+    <option name="totallyTimeSpent" value="108878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1149,8 +1113,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22235" selection-start-line="0" selection-start-column="22235" selection-end-line="0" selection-end-column="22235" />
+        <state relative-caret-position="479">
+          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#1;n#section#0;n#template#4;n#!!top" expanded="true" />
           </folding>
