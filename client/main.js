@@ -111,11 +111,11 @@ function storytellingLocate(position) {
     if(distance < 25){
         var phrases = [
             distance + ' km nous séparent en ce moment même',
-            'mais grầce à internet, nous faisons connaissance.',
+            'mais grầce à internet, nous faisons connaissance',
             'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
-            'des appareils qui connectent ...',
-            'transmettent & intéragissent ...',
-            'nous aident et apprennent de nous :',
+            'des appareils qui connectent',
+            'transmettent & intéragissent',
+            'nous aident et apprennent de nous',
             'le digital repense notre façon de voir le monde',
             'il nous émerveille.'
 
@@ -128,11 +128,11 @@ function storytellingLocate(position) {
     else{
         var phrases = [
             distance + ' km nous séprent',
-            'mais grầce à internet, nous faisons connaissance.',
+            'mais grầce à internet, nous faisons connaissance',
             'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
-            'des appareils qui connectent ...',
-            'transmettent & intéragissent ...',
-            'nous aident et apprennent de nous :',
+            'des appareils qui connectent',
+            'transmettent & intéragissent',
+            'nous aident et apprennent de nous',
             'le digital repense notre façon de voir le monde',
             'il nous émerveille.'
 
@@ -151,7 +151,7 @@ function storytellingLocate(position) {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 3){
+        if(counter == 2){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
@@ -167,10 +167,10 @@ function storytellingUnlocate() {
 
 
     var phrases = [
-        'Avec 28 milliards d\'appareils dans le monde,',
-        '28 milliards d\'appareils qui nous connectent ...',
-        'transmettent & intéragissent ...',
-        'nous aident et apprennent de nous :',
+        'Avec 28 milliards d\'appareils dans le monde',
+        '28 milliards d\'appareils qui nous connectent',
+        'transmettent & intéragissent',
+        'nous aident et apprennent de nous',
         'le digital repense notre façon de voir le monde',
         'il nous émerveille.'
     ]
@@ -187,7 +187,7 @@ function storytellingUnlocate() {
         fx.setText(phrases[counter]).then(() => {
             setTimeout(next, 3000)
         })
-        if(counter == 3){
+        if(counter == 2){
             $('.discoverBtn').fadeIn();
         }
         counter = (counter + 1) % phrases.length
