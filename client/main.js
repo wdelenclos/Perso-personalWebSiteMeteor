@@ -122,7 +122,7 @@ function storytellingLocate(position) {
 
     else{
         var phrases = [
-            distance + ' km nous séprent',
+            distance + ' km nous séparent',
             'mais grầce à internet, nous faisons connaissance.',
             'Il met aussi en contact 28 milliards d\'appareils dans le monde,',
             'des appareils qui connectent ...',
@@ -163,9 +163,9 @@ function storytellingUnlocate() {
 
     var phrases = [
         'Avec 28 milliards d\'appareils dans le monde,',
-        '28 milliards d\'appareils qui nous connectent ...',
-        'transmettent & intéragissent ...',
-        'nous aident et apprennent de nous :',
+        '28 milliards d\'appareils qui nous connectent',
+        'transmettent & intéragissent',
+        'nous aident et apprennent de nous',
         'le digital repense notre façon de voir le monde',
         'il nous émerveille.'
     ]
@@ -221,7 +221,7 @@ Template.portrait.helpers({
     h2: "A propos",
     subtitle: "Heticien - UX Designer @DigitasLBi",
     p1: "Concevoir et réaliser des expériences sur les supports digitaux suppose à la fois une connaissance générale de tous les enjeux, qu'une expertise approfondie dans certains des domaines qui compose cet univers digital qui s'étends sans cesse toujours plus.",
-    p2: "Heticien en Bachelor Chef de projet Multimédia (promotion 2018) et UX Designer chez DigitasLBi, j'approfondis mes connaissances en conception d'expérience utilisateur par des recherches sur le No-Interface Design et les microintérations.",
+    p2: "Heticien en Bachelor Chef de projet Multimédia (promotion 2018) et UX Designerchez DigitasLBi, j'approfondis mes connaissances en conception d'expérience utilisateur par des recherches sur le No-Interface Design et les microintérations.",
     p3:" Ces recherches et connaissances théoriques viennent se completer en un savoir-faire technique; aussi bien créatif (aquis en classe préparatoire pour les arts décoratifs) qu'en développement (NodeJS, Meteor, PHP ...) qui me permettent de passer par moi même mes idées en produits finaux.",
     aTitle: "Voir mon profil LinkedIn",
     a:"https://www.linkedin.com/in/wdelenclos",
