@@ -102,13 +102,12 @@ Meteor.call("gallerie", function(err, res) {
     let imgurl;
     let p;
     for (let i = 0; i < res.length; i++) {
-        if (res[i].owner.name == "WDelenclos") {
             titre = res[i].name;
             url = res[i].http_url_to_repo;
             imgurl = res[i].avatar_url;
             p = res[i].description;
             document.querySelector('#gallerie').innerHTML += "<article><a href=\"" + url + "\" target=\"_blank\" class=\"image\"> <img src=\"" + imgurl + "\" alt=\"" + titre + "\"> </a> <div class=\"caption\"> <h3>" + titre + "</h3> <p>" + p + ".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir sur GitLab</span></li> </ul> </div> </article>"
-        }
+        
     }
 });
 Template.storytelling.events({
