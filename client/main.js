@@ -104,7 +104,7 @@ Meteor.call("gallerie", function(err, res) {
     for (let i = 0; i < projects.length; i++) {
             titre = projects[i].name;
             url = res[i].url;
-            imgurl = res[i].cover.404;
+            imgurl = res[i].cover[3];
             p = res[i].fields[0];
             document.querySelector('#gallerie').innerHTML += "<article><a href=\"" + url + "\" target=\"_blank\" class=\"image\"> <img src=\"" + imgurl + "\" alt=\"" + titre + "\"> </a> <div class=\"caption\"> <h3>" + titre + "</h3> <p>" + p + ".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir sur GitLab</span></li> </ul> </div> </article>"
 
