@@ -59,7 +59,7 @@ Meteor.call("titre", function(irr, res) {});
 Template.portrait.helpers({
     h2: "A propos",
     subtitle: "Heticien - UX Designer @DigitasLBi",
-    p1: "Concevoir et réaliser des expériences sur les supports digitaux suppose aussi bien expertise qu'une vision d'ensemble des domaines qui composent le monde digital.",
+    p1: "Concevoir et réaliser des expériences sur les supports digitaux suppose aussi bien un expertise approfondie, qu'une vision d'ensemble des domaines qui composent le monde digital.",
     p2: "Heticien en Bachelor Chef de projet Multimédia (promotion 2018) et UX Designer chez DigitasLBi, j'approfondis mes connaissances en conception d'expérience utilisateur par des recherches sur le no-interface Design et les microinteractions.",
     p3: "Ces recherches et connaissances théoriques se rejoignent dans un savoir-faire technique; aussi bien créatif (aquis en classe préparatoire pour les arts décoratifs) que du développement (NodeJS, Meteor, PHP ...) qui me permettent de passer par moi même mes idées en produits finaux.",
     aTitle: "Voir mon profil LinkedIn",
