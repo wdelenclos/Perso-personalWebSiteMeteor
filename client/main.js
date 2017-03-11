@@ -103,7 +103,6 @@ Meteor.call("gallerie", function(err, res) {
     let imgurl;
     let p;
     for (let i = 0; i < projects.length; i++) {
-        console.log(projects[i]);
             titre = projects[i].name;
             url = projects[i].url;
             imgurl = projects[i].covers.original;
