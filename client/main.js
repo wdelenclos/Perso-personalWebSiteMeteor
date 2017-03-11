@@ -96,18 +96,18 @@ Meteor.call("publication", function(err, res) {
     })
 });
 Meteor.call("gallerie", function(err, res) {
-    console.log(res);
+    let projects = res.projects;
     let titre;
     let url;
     let imgurl;
     let p;
-    for (let i = 0; i < res.length; i++) {
-            titre = res[i].name;
-            url = res[i].http_url_to_repo;
-            imgurl = res[i].avatar_url;
-            p = res[i].description;
+    for (let i = 0; i < projects.length; i++) {
+            titre = projects[i].name;
+            url = res[i].url;
+            imgurl = res[i].cover.404;
+            p = res[i].fields[0];
             document.querySelector('#gallerie').innerHTML += "<article><a href=\"" + url + "\" target=\"_blank\" class=\"image\"> <img src=\"" + imgurl + "\" alt=\"" + titre + "\"> </a> <div class=\"caption\"> <h3>" + titre + "</h3> <p>" + p + ".</p> <ul class=\"actions\"> <li><span class=\"button small\">Voir sur GitLab</span></li> </ul> </div> </article>"
-        
+
     }
 });
 Template.storytelling.events({
