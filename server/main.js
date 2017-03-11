@@ -29,7 +29,7 @@ Meteor.methods({
 
 Meteor.methods({
     gallerie: function() {
-        feedGitLab = Scrape.url("https://gitlab.com/api/v3/projects?private_token=syaM4segXp8C_5GLHTSU");
+        feedGitLab = Scrape.url("https://www.behance.net/v2/users/wdelenclosa55e/projects?api_key=XVZeqTYLSrh9O2wNbqFJf8bfZXDE9M9w");
         return feedGitLab;
     }
 });

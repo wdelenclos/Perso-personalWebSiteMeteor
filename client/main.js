@@ -96,6 +96,7 @@ Meteor.call("publication", function(err, res) {
     })
 });
 Meteor.call("gallerie", function(err, res) {
+    console.log(res);
     let titre;
     let url;
     let imgurl;
